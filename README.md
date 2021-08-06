@@ -1,7 +1,4 @@
 <h1 align="center">Service Catalog Api</h1>
-
-Status
-
 <h4 align="center"> 
 	🚧  Service Catalog Api 🚀 Under construction...  🚧
 </h4> 
@@ -60,15 +57,17 @@ also built-in middleware used to serve the static files, and morgan is used to l
 ## :white_check_mark: Endpoints ##
 
 - /POST [createService](http://localhost:8000/services) 
-body: {
-    "title": "Service",
-    "description": "Sample Service",
-    "versions": [{
-        "id": 1,
-        "title": "Service",
-        "description": "Sample Service"
-    }]
+```
+{
+  "title": "Service",
+  "description": "Sample Service",
+  "versions": [{
+      "id": 1,
+      "title": "Service",
+      "description": "Sample Service"
+  }]
 }
+```
 
 - /GET [getServices](http://localhost:8000/services) 
 
@@ -101,7 +100,7 @@ $ npm test
 This project is under license from ISC. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{megauravs}}" target="_blank">{{Gaurav Shinde}}</a>
+Made with :heart: by <a href="https://github.com/{{megauravs}}" target="_blank">Gaurav Shinde</a>
 
 &#xa0;
 
