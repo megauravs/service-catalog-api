@@ -1,9 +1,3 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Service Catalog Api" />
-
-  &#xa0;
-</div>
-
 <h1 align="center">Service Catalog Api</h1>
 
 Status
@@ -64,6 +58,22 @@ also built-in middleware used to serve the static files, and morgan is used to l
 - Added basic test framework using jest.
 
 ## :white_check_mark: Endpoints ##
+
+- /POST [createService](http://localhost:8000/services) 
+body: {
+    "title": "Service",
+    "description": "Sample Service",
+    "versions": [{
+        "id": 1,
+        "title": "Service",
+        "description": "Sample Service"
+    }]
+}
+
+- /GET [getServices](http://localhost:8000/services) 
+
+- /GET [getService](http://localhost:8000/services/{service_id}) 
+
 
 ## :checkered_flag: Starting ##
 
