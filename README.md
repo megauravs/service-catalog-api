@@ -2,35 +2,17 @@
   <img src="./.github/app.gif" alt="Service Catalog Api" />
 
   &#xa0;
-
-  <!-- <a href="https://servicecatalogapi.netlify.app">Demo</a> -->
 </div>
 
 <h1 align="center">Service Catalog Api</h1>
 
-<p align="center">
-  <img alt="Github top language" src="https://nodejs.org/en/docs/service-catalog-api?color=56BEB8">
+Status
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{megauravs}}/service-catalog-api?color=56BEB8">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/{{megauravs}}/service-catalog-api?color=56BEB8">
-
-  <img alt="License" src="https://img.shields.io/github/license/{{megauravs}}/service-catalog-api?color=56BEB8">
-
-  <!-- <img alt="Github issues" src="https://img.shields.io/github/issues/{{YOUR_GITHUB_USERNAME}}/service-catalog-api?color=56BEB8" /> -->
-
-  <!-- <img alt="Github forks" src="https://img.shields.io/github/forks/{{YOUR_GITHUB_USERNAME}}/service-catalog-api?color=56BEB8" /> -->
-
-  <!-- <img alt="Github stars" src="https://img.shields.io/github/stars/{{YOUR_GITHUB_USERNAME}}/service-catalog-api?color=56BEB8" /> -->
-</p>
-
-<!-- Status -->
-
-<!-- <h4 align="center"> 
+<h4 align="center"> 
 	🚧  Service Catalog Api 🚀 Under construction...  🚧
 </h4> 
 
-<hr> -->
+<hr> 
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
@@ -46,52 +28,54 @@
 
 ## :dart: About ##
 
-Describe your project
+I am responsible for the data model and API portions of this story. 
+Implement a Services API that can be used to implement this dashboard widget. It should support
+
+The API can be read-only.
 
 ## :sparkles: Features ##
 
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
+:heavy_check_mark: Returning a list of services (support filtering, sorting, pagination)\
+:heavy_check_mark: Fetching a particular service (including a method for retrieving its versions)
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
+- [Postgres](https://postgresql.org)
 - [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
+- [Express](https://expressjs.com/)
+- [TypeORM](https://typeorm.io/#/)
 - [TypeScript](https://www.typescriptlang.org/)
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Node](https://nodejs.org/en/) and [Docker](https://www.docker.com/) installed.
 
 ## :checkered_flag: Starting ##
 
 ```bash
 # Clone this project
-$ git clone https://github.com/{{YOUR_GITHUB_USERNAME}}/service-catalog-api
+$ git clone https://github.com/{{megauravs}}/service-catalog-api
 
 # Access
 $ cd service-catalog-api
 
-# Install dependencies
-$ yarn
+# Build docker 
+$ docker-compose build
 
 # Run the project
-$ yarn start
+$ docker-compose up
 
-# The server will initialize in the <http://localhost:3000>
+# The server will initialize in the <http://localhost:8000>
 ```
 
 ## :memo: License ##
 
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
+This project is under license from ISC. For more details, see the [LICENSE](LICENSE.md) file.
 
 
-Made with :heart: by <a href="https://github.com/{{YOUR_GITHUB_USERNAME}}" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/{{megauravs}}" target="_blank">{{Gaurav Shinde}}</a>
 
 &#xa0;
 
