@@ -52,6 +52,15 @@ The following tools were used in this project:
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Node](https://nodejs.org/en/) and [Docker](https://www.docker.com/) installed.
 
+## :white_check_mark: Design and Considerations ##
+
+```bash
+- To develop this API as per the given requirement, I first started developing PostgreSQL model.
+- Then I extended the server by adding some middlewares. I added three middleware to the server. express.json is built-in middleware to parse the request body, express.static is also built-in middleware used to serve the static files, and morgan is used to logs the requests.
+- Then I dockerize the application with postgres v12 so that any developer can easily run this project.
+- Added config for the database and added controller, routes for the Service model.
+```
+
 ## :checkered_flag: Starting ##
 
 ```bash
