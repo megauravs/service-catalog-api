@@ -9,7 +9,7 @@
 <h1 align="center">Service Catalog Api</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/{{megauravs}}/service-catalog-api?color=56BEB8">
+  <img alt="Github top language" src="https://nodejs.org/en/docs/service-catalog-api?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/{{megauravs}}/service-catalog-api?color=56BEB8">
 
